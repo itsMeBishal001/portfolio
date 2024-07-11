@@ -1,24 +1,17 @@
 "use client";
-
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 
 const RecentProjects = () => {
     return (
-        <div className="py-20">
+        <div className="py-20 flex flex-col justify-center">
             <h1 className="heading">
                 A small selection of{" "}
                 <span className="text-purple">recent projects</span>
             </h1>
-            <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
-                {projects.map(({ id,
-                    title,
-                    des,
-                    img,
-                    iconLists,
-                    link, }) => (
+            <div className="grid grid-cols-1 xl:grid-cols-2 justify-items-center gap-40 p-4 mt-20">
+                {projects.map(({ id, title, des, img, iconLists, link }) => (
                     <div
                         className="lg:min-h-[32.5rem] h-[32rem] flex items-center justify-center sm:w-[41rem] w-[80vw]"
                         key={id}
