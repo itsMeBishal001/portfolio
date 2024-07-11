@@ -72,37 +72,30 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "Foodify - Food Ordering App",
+      des: "Project aimed at building a food ordering app where users can browse restaurants, view food items, and add them to their cart. Implemented a mono repo architecture to manage the codebase for the mobile app, web app, and backend API, streamlining development and improving code maintainability.",
       img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      iconLists: ["/re.svg","/js.svg", "/tail.svg","/css.svg",],
+      link: "https://a-food-ordering-app.netlify.app",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      title: "Video Streaming App",
+      des: "A YouTube clone offering seamless video playback and access to trending videos.",
       img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      iconLists: ["/re.svg","/js.svg", "/tail.svg","/css.svg",],
+      link: "https://vedio-strimming-spa-youtube-clone.netlify.app",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+      title: "Open Board",
+      des: "A canvas-based webpage allowing users to draw, erase, and customize tool colors and line widths.",
       img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-    },
+      iconLists: ["/re.svg", "/tail.svg",],
+      link: "https://itsmebishal001.github.io/openBoard",
+    }
   ];
+  
   
   export const testimonials = [
     {
